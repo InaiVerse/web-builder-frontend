@@ -8,7 +8,7 @@ import Admin from "./Web-Builder/Components/Dashboard/Admin";
 import Home from "./Web-Builder/Components/Home/Home";
 import Theme from "./Web-Builder/Components/Recomandation/Theme";
 import Pages from "./Web-Builder/Components/Recomandation/Pages";
-import Dashboard from "./Web-Builder/Components/Dashboard/Dashboard";
+import Dashboard from "./Web-Builder/Components/Dashboard/dashboard";
 import Pricing from "./Web-Builder/Components/Dashboard/Pricing";
 import Chart from "./Web-Builder/Components/Dashboard/Chart";
 import Settings from "./Web-Builder/Components/Settings/Settings";
@@ -20,7 +20,7 @@ import UpdateDetail from "./Web-Builder/Components/Dashboard/UpdateDetail";
 import BuilderPage from './Web-Builder/app/builder/page.jsx';
 import JoinPage from './Project-Builder/JoinProject/JoinPage';
 import InputPage from './Project-Builder/Input/input.jsx';
-import ProjectBuilderDashboard from './Project-Builder/Dashboard/Dashboard.jsx';
+// import ProjectBuilderDashboard from './Project-Builder/Dashboard/Dashboard.jsx';
 import ChatEditor from './Project-Builder/ChatEditor/ChatEditor.jsx';
 import ProjectBuilderPage from './Project-Builder/VsCode/ProjectBuilderPage.jsx';
 import PublicRoute from "./Web-Builder/Components/Utils/PublicRoute";
@@ -85,14 +85,14 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
+          {/* <Route
             path="dashboard"
             element={
               <ProtectedRoute>
                 <ProjectBuilderDashboard />
               </ProtectedRoute>
             }
-          />
+          /> */}
           <Route
             path="chat-editor"
             element={
